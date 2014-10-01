@@ -15,6 +15,11 @@
 		18CC403219DC4063006CCD0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC403119DC4063006CCD0F /* Images.xcassets */; };
 		18CC403519DC4063006CCD0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CC403319DC4063006CCD0F /* LaunchScreen.xib */; };
 		18CC404119DC4063006CCD0F /* LMSSchemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC404019DC4063006CCD0F /* LMSSchemaTests.m */; };
+		18CC407C19DC63D8006CCD0F /* Course+API.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC407B19DC63D8006CCD0F /* Course+API.m */; };
+		18CC408019DC673C006CCD0F /* APIFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC407F19DC673C006CCD0F /* APIFetcher.m */; };
+		18CC40AA19DC846E006CCD0F /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC40A919DC846E006CCD0F /* Course.m */; };
+		18CC40AE19DC96B7006CCD0F /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC40AD19DC96B7006CCD0F /* CoreDataTableViewController.m */; };
+		18CC40B119DC97AB006CCD0F /* ClassesCDTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC40B019DC97AB006CCD0F /* ClassesCDTV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,16 @@
 		18CC403A19DC4063006CCD0F /* LMSSchemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMSSchemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CC403F19DC4063006CCD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CC404019DC4063006CCD0F /* LMSSchemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSSchemaTests.m; sourceTree = "<group>"; };
+		18CC407A19DC63D8006CCD0F /* Course+API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Course+API.h"; sourceTree = "<group>"; };
+		18CC407B19DC63D8006CCD0F /* Course+API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Course+API.m"; sourceTree = "<group>"; };
+		18CC407E19DC673C006CCD0F /* APIFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIFetcher.h; sourceTree = "<group>"; };
+		18CC407F19DC673C006CCD0F /* APIFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIFetcher.m; sourceTree = "<group>"; };
+		18CC40A819DC846E006CCD0F /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		18CC40A919DC846E006CCD0F /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		18CC40AC19DC96B7006CCD0F /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		18CC40AD19DC96B7006CCD0F /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		18CC40AF19DC97AB006CCD0F /* ClassesCDTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassesCDTV.h; sourceTree = "<group>"; };
+		18CC40B019DC97AB006CCD0F /* ClassesCDTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassesCDTV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +83,7 @@
 				18CC402019DC4063006CCD0F /* LMSSchema */,
 				18CC403D19DC4063006CCD0F /* LMSSchemaTests */,
 				18CC401F19DC4063006CCD0F /* Products */,
+				18CC407D19DC673C006CCD0F /* APIFetcher */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +99,11 @@
 		18CC402019DC4063006CCD0F /* LMSSchema */ = {
 			isa = PBXGroup;
 			children = (
+				18CC40AB19DC96B7006CCD0F /* CoreDataTableViewController */,
+				18CC407A19DC63D8006CCD0F /* Course+API.h */,
+				18CC407B19DC63D8006CCD0F /* Course+API.m */,
+				18CC40A819DC846E006CCD0F /* Course.h */,
+				18CC40A919DC846E006CCD0F /* Course.m */,
 				18CC402519DC4063006CCD0F /* AppDelegate.h */,
 				18CC402619DC4063006CCD0F /* AppDelegate.m */,
 				18CC402B19DC4063006CCD0F /* ViewController.h */,
@@ -120,6 +141,27 @@
 				18CC403F19DC4063006CCD0F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CC407D19DC673C006CCD0F /* APIFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				18CC407E19DC673C006CCD0F /* APIFetcher.h */,
+				18CC407F19DC673C006CCD0F /* APIFetcher.m */,
+			);
+			name = APIFetcher;
+			path = "APIFetcher copy";
+			sourceTree = "<group>";
+		};
+		18CC40AB19DC96B7006CCD0F /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18CC40AC19DC96B7006CCD0F /* CoreDataTableViewController.h */,
+				18CC40AD19DC96B7006CCD0F /* CoreDataTableViewController.m */,
+				18CC40AF19DC97AB006CCD0F /* ClassesCDTV.h */,
+				18CC40B019DC97AB006CCD0F /* ClassesCDTV.m */,
+			);
+			path = CoreDataTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC40AA19DC846E006CCD0F /* Course.m in Sources */,
 				18CC402A19DC4063006CCD0F /* LMSSchema.xcdatamodeld in Sources */,
+				18CC40AE19DC96B7006CCD0F /* CoreDataTableViewController.m in Sources */,
 				18CC402719DC4063006CCD0F /* AppDelegate.m in Sources */,
 				18CC402D19DC4063006CCD0F /* ViewController.m in Sources */,
 				18CC402419DC4063006CCD0F /* main.m in Sources */,
+				18CC407C19DC63D8006CCD0F /* Course+API.m in Sources */,
+				18CC408019DC673C006CCD0F /* APIFetcher.m in Sources */,
+				18CC40B119DC97AB006CCD0F /* ClassesCDTV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
