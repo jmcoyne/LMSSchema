@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186116FC19DD8B0300B1592B /* AppDelegate+MOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186116FB19DD8B0300B1592B /* AppDelegate+MOC.m */; };
 		18CC402419DC4063006CCD0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC402319DC4063006CCD0F /* main.m */; };
 		18CC402719DC4063006CCD0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC402619DC4063006CCD0F /* AppDelegate.m */; };
 		18CC402A19DC4063006CCD0F /* LMSSchema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CC402819DC4063006CCD0F /* LMSSchema.xcdatamodeld */; };
@@ -33,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186116FA19DD8B0300B1592B /* AppDelegate+MOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MOC.h"; sourceTree = "<group>"; };
+		186116FB19DD8B0300B1592B /* AppDelegate+MOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MOC.m"; sourceTree = "<group>"; };
+		186116FE19DDAD4900B1592B /* CourseDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseDatabaseAvailability.h; sourceTree = "<group>"; };
 		18CC401E19DC4063006CCD0F /* LMSSchema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMSSchema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CC402219DC4063006CCD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CC402319DC4063006CCD0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 		18CC402019DC4063006CCD0F /* LMSSchema */ = {
 			isa = PBXGroup;
 			children = (
+				186116FE19DDAD4900B1592B /* CourseDatabaseAvailability.h */,
 				18CC40AB19DC96B7006CCD0F /* CoreDataTableViewController */,
 				18CC407A19DC63D8006CCD0F /* Course+API.h */,
 				18CC407B19DC63D8006CCD0F /* Course+API.m */,
@@ -106,6 +111,8 @@
 				18CC40A919DC846E006CCD0F /* Course.m */,
 				18CC402519DC4063006CCD0F /* AppDelegate.h */,
 				18CC402619DC4063006CCD0F /* AppDelegate.m */,
+				186116FA19DD8B0300B1592B /* AppDelegate+MOC.h */,
+				186116FB19DD8B0300B1592B /* AppDelegate+MOC.m */,
 				18CC402B19DC4063006CCD0F /* ViewController.h */,
 				18CC402C19DC4063006CCD0F /* ViewController.m */,
 				18CC402E19DC4063006CCD0F /* Main.storyboard */,
@@ -270,6 +277,7 @@
 				18CC402719DC4063006CCD0F /* AppDelegate.m in Sources */,
 				18CC402D19DC4063006CCD0F /* ViewController.m in Sources */,
 				18CC402419DC4063006CCD0F /* main.m in Sources */,
+				186116FC19DD8B0300B1592B /* AppDelegate+MOC.m in Sources */,
 				18CC407C19DC63D8006CCD0F /* Course+API.m in Sources */,
 				18CC408019DC673C006CCD0F /* APIFetcher.m in Sources */,
 				18CC40B119DC97AB006CCD0F /* ClassesCDTV.m in Sources */,
@@ -465,6 +473,7 @@
 				18CC404619DC4063006CCD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CC404719DC4063006CCD0F /* Build configuration list for PBXNativeTarget "LMSSchemaTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +482,7 @@
 				18CC404919DC4063006CCD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

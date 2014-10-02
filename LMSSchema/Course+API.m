@@ -46,5 +46,12 @@ inManagedObjectContext:(NSManagedObjectContext *)context
     return course;
     
 }
++ (void)loadCoursesFromAPIArray:(NSArray *)courses // of API NSDictionary
+         intoManagedObjectContext:(NSManagedObjectContext *)context
+{
+    for (NSDictionary *course in courses) {
+        [self courseFromAPI:course inManagedObjectContext:context];
+    }
+}
 
 @end

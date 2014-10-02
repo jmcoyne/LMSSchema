@@ -10,8 +10,10 @@
 #import "APIFetcher.h"
 
 @interface Course (API)
-+ (Course *)courseFromAPI:(NSDictionary *)courseDictionary
++ (Course *)ourseFromAPI:(NSDictionary *)courseDictionary
    inManagedObjectContext:(NSManagedObjectContext *)managedObjectContext;
 
++ (void)loadCoursesFromAPIArray:(NSArray *)photos // of API NSDictionary
+       inManagedObjectContext:(NSManagedObjectContext *)context;
 
 @end
